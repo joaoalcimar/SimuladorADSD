@@ -13,17 +13,17 @@ public class ProcessorSubsystem {
     Firewall firewall = new Firewall("Firewall", 30);
 
     Disk disk1 = new Disk("Disk1", 10);
-    Disk disk2 = new Disk("Disk2", 12);
-    Disk disk3 = new Disk("Disk3", 14);
-    Disk disk4 = new Disk("Disk4", 15);
+    Disk disk2 = new Disk("Disk2", 15);
+    Disk disk3 = new Disk("Disk3", 13);
+    Disk disk4 = new Disk("Disk4", 17);
     
     LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 40);
     
     // taxas em ordem crescente
-    ThreeToTwoSink cpu1 = new ThreeToTwoSink("Cpu1", 10, 5, 95); 
-    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 5, 3, 10, 87); 
-    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 7, 10, 90);
-    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 9, 3, 7, 90);
+    ThreeToTwoSink cpu1 = new ThreeToTwoSink("Cpu1", 10, 5, 20); 
+    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 5, 3, 10, 22); 
+    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 7, 10, 25);
+    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 9, 3, 7, 23);
     
     Finalizer finalizer = new Finalizer("Finalizer", 0);
     
