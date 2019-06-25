@@ -21,9 +21,9 @@ public class ProcessorSubsystem {
     
     // taxas em ordem crescente
     ThreeToTwoSink cpu1 = new ThreeToTwoSink("Cpu1", 70, 5, 95); 
-    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 75 3, 10, 87); 
-    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 80 10, 90);
-    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 77 3, 7, 90);
+    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 75, 3, 10, 87); 
+    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 80, 10, 90);
+    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 77, 3, 7, 90);
     
     Finalizer finalizer = new Finalizer("Finalizer", 0);
     
