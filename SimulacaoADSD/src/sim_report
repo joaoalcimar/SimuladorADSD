@@ -1,0 +1,305 @@
+############################################################
+#                                                          #
+#                    SIMULATION REPORT                     #
+#                                                          #
+############################################################
+
+Version: SimJava 2.0
+
+Simulation date:         24 de Junho de 2019
+Simulation start time:   22h2min31s BRT
+Simulation end time:     22h2min31s BRT
+
+############################################################
+#            Overall simulation run information            #
+############################################################
+
+Total simulated time:    24269.0
+Total transient time:    0.0
+Total steady state time: 24269.0
+Transient condition:     None
+Termination condition:   None
+Output analysis method:  None
+
+############################################################
+#               Simulation run measurements                #
+############################################################
+
+------------------------- Firewall -------------------------
+
+- Throughput
+
+Sample mean:          0.008240965841196587
+Event count:          200
+
+- Residence time
+
+Sample mean:          10010.0
+Sample variance:      3.35E7
+Sample std deviation: 5787.918451395113
+Maximum:              19960.0
+Minimum:              60.0
+
+- Service time
+
+Sample mean:          60.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              60.0
+Minimum:              60.0
+
+- Utilisation
+
+Sample mean:          0.4944579504717953
+
+-------------------------- Disk1 ---------------------------
+
+- Throughput
+
+Sample mean:          2.8843380444188056E-4
+Event count:          7
+
+- Residence time
+
+Sample mean:          68.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              68.0
+Minimum:              68.0
+
+- Service time
+
+Sample mean:          68.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              68.0
+Minimum:              68.0
+
+- Utilisation
+
+Sample mean:          0.01961349870204788
+
+-------------------------- Disk2 ---------------------------
+
+- Throughput
+
+Sample mean:          8.240965841196589E-5
+Event count:          2
+
+- Residence time
+
+Sample mean:          65.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              65.0
+Minimum:              65.0
+
+- Service time
+
+Sample mean:          65.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              65.0
+Minimum:              65.0
+
+- Utilisation
+
+Sample mean:          0.005356627796777783
+
+-------------------------- Disk3 ---------------------------
+
+- Throughput
+
+Sample mean:          4.5325312126581237E-4
+Event count:          11
+
+- Residence time
+
+Sample mean:          60.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              60.0
+Minimum:              60.0
+
+- Service time
+
+Sample mean:          60.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              60.0
+Minimum:              60.0
+
+- Utilisation
+
+Sample mean:          0.027195187275948742
+
+-------------------------- Disk4 ---------------------------
+
+- Throughput
+
+Sample mean:          1.236144876179488E-4
+Event count:          3
+
+- Residence time
+
+Sample mean:          50.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              50.0
+Minimum:              50.0
+
+- Service time
+
+Sample mean:          50.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              50.0
+Minimum:              50.0
+
+- Utilisation
+
+Sample mean:          0.0061807243808974415
+
+----------------------- LoadBalancer -----------------------
+
+- Throughput
+
+Sample mean:          0.005439037455189749
+Event count:          132
+
+- Residence time
+
+Sample mean:          60.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              60.0
+Minimum:              60.0
+
+- Service time
+
+Sample mean:          60.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              60.0
+Minimum:              60.0
+
+- Utilisation
+
+Sample mean:          0.3263422473113849
+
+- Thread use
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+--------------------------- Cpu1 ---------------------------
+
+- Throughput
+
+Sample mean:          0.005727471259631629
+Event count:          139
+
+- Residence time
+
+Sample mean:          70.75539568345324
+Sample variance:      26.055677197371658
+Sample std deviation: 5.104476192262205
+Maximum:              105.0
+Minimum:              70.0
+
+- Service time
+
+Sample mean:          70.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              70.0
+Minimum:              70.0
+
+- Utilisation
+
+Sample mean:          0.400922988174214
+
+--------------------------- Cpu2 ---------------------------
+
+- Throughput
+
+Sample mean:          0.0025134945815649596
+Event count:          61
+
+- Residence time
+
+Sample mean:          77.0327868852459
+Sample variance:      81.49890710382606
+Sample std deviation: 9.027674512510188
+Maximum:              118.0
+Minimum:              75.0
+
+- Service time
+
+Sample mean:          75.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              75.0
+Minimum:              75.0
+
+- Utilisation
+
+Sample mean:          0.18851209361737195
+
+--------------------------- Cpu3 ---------------------------
+
+- Throughput
+
+Sample mean:          0.0031315670196547037
+Event count:          76
+
+- Residence time
+
+Sample mean:          80.13157894736842
+Sample variance:      1.3157894736838838
+Sample std deviation: 1.1470786693526664
+Maximum:              90.0
+Minimum:              80.0
+
+- Service time
+
+Sample mean:          80.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              80.0
+Minimum:              80.0
+
+- Utilisation
+
+Sample mean:          0.25052536157237626
+
+--------------------------- Cpu4 ---------------------------
+
+- Throughput
+
+Sample mean:          0.00490337467551197
+Event count:          119
+
+- Residence time
+
+Sample mean:          77.92436974789916
+Sample variance:      30.816265489246057
+Sample std deviation: 5.551239995644762
+Maximum:              127.0
+Minimum:              77.0
+
+- Service time
+
+Sample mean:          77.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              77.0
+Minimum:              77.0
+
+- Utilisation
+
+Sample mean:          0.3775598500144217
+
