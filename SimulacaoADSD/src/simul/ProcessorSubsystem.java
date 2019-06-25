@@ -8,22 +8,22 @@ public class ProcessorSubsystem {
     Sim_system.initialise();
 
     // 300 requisiçoes
-    Source source = new Source("Source", 10, 300);
+    Source source = new Source("Source", 20, 200);
     
-    Firewall firewall = new Firewall("Firewall", 30);
+    Firewall firewall = new Firewall("Firewall", 60);
 
-    Disk disk1 = new Disk("Disk1", 10);
-    Disk disk2 = new Disk("Disk2", 15);
-    Disk disk3 = new Disk("Disk3", 13);
-    Disk disk4 = new Disk("Disk4", 17);
+    Disk disk1 = new Disk("Disk1", 68);
+    Disk disk2 = new Disk("Disk2", 65);
+    Disk disk3 = new Disk("Disk3", 60);
+    Disk disk4 = new Disk("Disk4", 50);
     
-    LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 40);
+    LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 60);
     
     // taxas em ordem crescente
-    ThreeToTwoSink cpu1 = new ThreeToTwoSink("Cpu1", 10, 5, 20); 
-    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 5, 3, 10, 22); 
-    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 7, 10, 25);
-    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 9, 3, 7, 23);
+    ThreeToTwoSink cpu1 = new ThreeToTwoSink("Cpu1", 70, 5, 95); 
+    ThreeToThreeSink cpu2 = new ThreeToThreeSink("Cpu2", 75 3, 10, 87); 
+    TwoToTwoSink cpu3 = new TwoToTwoSink("Cpu3", 80 10, 90);
+    ThreeToThreeSink cpu4 = new ThreeToThreeSink("Cpu4", 77 3, 7, 90);
     
     Finalizer finalizer = new Finalizer("Finalizer", 0);
     
